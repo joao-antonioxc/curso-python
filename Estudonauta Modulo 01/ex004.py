@@ -1,0 +1,8 @@
+n = input('Digite algo: ')
+print('O termo {} que você digitou é...'.format(n))
+print('Alfabético?', n.isalpha())
+print('Numérico?', n.isnumeric())
+print('Alfanumérico?', n.isalnum())
+print('Maiúsculo?', n.isupper())
+print('Minúsculo?', n.islower())
+print('É do tipo:', type(n))
